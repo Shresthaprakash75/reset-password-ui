@@ -9,8 +9,8 @@ import ResetPass from './other-app/reset-password'
 
 const routing = (
   <Router>
-    <Route exact path="/"><App /></Route>
-    <Route path="/reset-password"><ResetPass /></Route>
+    {/* <Route exact path="/"><App /></Route> */}
+    <Route path="/"><ResetPass /></Route>
     
   </Router>
 );
